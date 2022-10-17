@@ -1,7 +1,9 @@
-﻿// сплюсовать 2 числа и вывести на экран
-
-double numberA = 36;
-double numberB = 9;
-double result = numberA + numberB;
+﻿// сплюсовать 2 числа и вывести на эк numberA = 36;
+// сплюсовать 2 числа и вывести на эк numberA = 36;
+int numberA = new Random().Next(1,10); // 1,2,3....9
+Console.WriteLine(numberA);
+int numberB = new Random().Next(1,10);
+Console.WriteLine(numberB);
+int result = numberA + numberB;
 Console.WriteLine (result);
 
